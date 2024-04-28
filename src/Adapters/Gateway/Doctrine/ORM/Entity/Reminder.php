@@ -3,7 +3,10 @@
 namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Metadata\ApiResource;
 
+#[ORM\Entity]
+#[ApiResource]
 class Reminder
 {
     #[ORM\Id]

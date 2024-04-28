@@ -5,8 +5,10 @@ namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 use App\Adapters\Gateway\Doctrine\ORM\EmergencyAlertRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Metadata\ApiResource;
 
 #[ORM\Entity(repositoryClass: EmergencyAlertRepository::class)]
+#[ApiResource]
 class EmergencyAlert
 {
     #[ORM\Id]
