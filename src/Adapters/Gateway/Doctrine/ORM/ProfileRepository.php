@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Repository;
+namespace App\Adapters\Gateway\Doctrine\ORM;
 
-use App\Domain\Entity\Profile;
+use App\Adapters\Gateway\Doctrine\ORM\Entity\Profile;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

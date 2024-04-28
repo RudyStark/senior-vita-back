@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Entity;
+namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 
-use App\Domain\Repository\MessageRepository;
+use App\Adapters\Gateway\Doctrine\ORM\MessageRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 

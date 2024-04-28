@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Repository;
+namespace App\Adapters\Gateway\Doctrine\ORM;
 
-use App\Domain\Entity\EmergencyAlert;
+use App\Adapters\Gateway\Doctrine\ORM\Entity\EmergencyAlert;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

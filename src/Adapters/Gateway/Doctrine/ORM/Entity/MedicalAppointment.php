@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Domain\Entity;
+namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 
-use App\Domain\Repository\MedicalAppointmentRepository;
+use App\Adapters\Gateway\Doctrine\ORM\MedicalAppointmentRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
