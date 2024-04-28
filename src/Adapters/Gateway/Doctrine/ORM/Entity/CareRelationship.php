@@ -5,8 +5,10 @@ namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 use App\Adapters\Gateway\Doctrine\ORM\CareRelationshipRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Metadata\ApiResource;
 
 #[ORM\Entity(repositoryClass: CareRelationshipRepository::class)]
+#[ApiResource]
 class CareRelationship
 {
     #[ORM\Id]

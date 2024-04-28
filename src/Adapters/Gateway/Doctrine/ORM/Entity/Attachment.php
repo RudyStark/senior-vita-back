@@ -2,8 +2,11 @@
 
 namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 
+use ApiPlatform\Metadata\ApiResource;
 use Doctrine\ORM\Mapping as ORM;
 
+#[ApiResource]
+#[ORM\Entity]
 class Attachment
 {
     #[ORM\Id]

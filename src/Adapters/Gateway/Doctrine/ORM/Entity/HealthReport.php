@@ -5,8 +5,10 @@ namespace App\Adapters\Gateway\Doctrine\ORM\Entity;
 use App\Adapters\Gateway\Doctrine\ORM\HealthReportRepository;
 use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
+use ApiPlatform\Metadata\ApiResource;
 
 #[ORM\Entity(repositoryClass: HealthReportRepository::class)]
+#[ApiResource]
 class HealthReport
 {
     #[ORM\Id]
