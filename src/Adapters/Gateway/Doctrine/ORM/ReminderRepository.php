@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Domain\Repository;
+namespace App\Adapters\Gateway\Doctrine\ORM;
 
-use App\Domain\Entity\Reminder;
+use App\Adapters\Gateway\Doctrine\ORM\Entity\Reminder;
+use App\Domain\Repository\User;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 

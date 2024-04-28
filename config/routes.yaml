@@ -1,5 +1,5 @@
 controllers:
     resource:
-        path: ../src/Infrastructure/Controller/
-        namespace: App\Infrastructure\Controller
+        path: ../src/Adapters/Controller/
+        namespace: App\Adapters\Controller
     type: attribute
